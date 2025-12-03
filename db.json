@@ -1,0 +1,18 @@
+{
+  "users": [
+    { "id": 1, "name": "Alice", "email": "alice@mail.com" },
+    { "id": 2, "name": "Bob", "email": "bob@mail.com" }
+  ],
+  "posts": [
+    { "id": 1, "userId": 1, "title": "Primeiro post", "body": "Olá mundo!" },
+    { "id": 2, "userId": 2, "title": "Post do Bob", "body": "Olá da conta 2" }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "body": "Comentário de teste" },
+    { "id": 2, "postId": 2, "body": "Outro comentário" }
+  ],
+  "todos": [
+    { "id": 1, "title": "Estudar Mocha", "completed": false },
+    { "id": 2, "title": "Testar API local", "completed": true }
+  ]
+}
